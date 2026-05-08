@@ -71,8 +71,10 @@ O programa de simulação inclui uma sequência de instruções que exercita as 
 
 ## 📁 Arquivos do Projeto
 
-| Arquivo              | Descrição                                    |
-| -------------------- | -------------------------------------------- |
-| `MIPS.circ`          | Circuito principal do processador no Logisim |
-| `programa_simulacao` | Programa de teste em formato hexadecimal raw |
-| `README.md`          | Este arquivo                                 |
+| Arquivo                     | Descrição                                    |
+| --------------------------- | -------------------------------------------- |
+| `MIPS.circ`                 | Circuito principal do processador no Logisim |
+| `programa_simulacao`        | Programa de teste em formato hexadecimal raw |
+| `README.md`                 | Este arquivo                                 |
+| `Documentação Técnica.pdf`  | Documentação Técnica do processador em .pdf  |
+| `Documentação Técnica.docx` | Documentação Técnica do processador em .docx |
