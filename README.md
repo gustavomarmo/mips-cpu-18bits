@@ -1,6 +1,6 @@
 # Processador MIPS Simplificado — Logisim
 
-Projeto acadêmico de implementação de um processador MIPS simplificado (8 bits, 8 registradores) desenvolvido no simulador de circuitos digitais **Logisim**.
+Projeto acadêmico de implementação de um processador MIPS simplificado (18 bits de instrução, 8 registradores de 8 bits) desenvolvido no simulador de circuitos digitais **Logisim**.
 
 ---
 
@@ -12,7 +12,7 @@ O circuito implementa uma arquitetura MIPS monociclo reduzida, composta pelos se
 - **Banco de Registradores** — 8 registradores de 8 bits (R0–R7) com leitura dupla e escrita controlada.
 - **ULA (Unidade Lógico-Aritmética)** — suporta soma, subtração, multiplicação, divisão, negação, comparação e deslocamentos (shift esquerda/direita).
 - **Controle da ULA** — seleciona a operação da ULA com base nos campos `ALUOp` e `Funct`.
-- **Memória de Instruções (ROM)** — armazena o programa a ser executado.
+- **Memória de Instruções (ROM)** — armazena o programa a ser executado, com instruções de 18 bits.
 - **Memória de Dados (RAM)** — utilizada nas instruções de load/store.
 - **PC (Program Counter)** — registrador que controla o fluxo de execução, com suporte a desvios e saltos.
 
@@ -36,7 +36,7 @@ O programa de simulação inclui uma sequência de instruções que exercita as 
 
 ### Pré-requisitos
 
-- [Logisim 2.7.x](http://www.cburch.com/logisim/) instalado (requer Java).
+- Logisim 2.7.x instalado (requer Java) ou o Logisim Web (https://logisim.app/).
 
 ### Passos
 
